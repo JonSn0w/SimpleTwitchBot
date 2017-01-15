@@ -1,10 +1,9 @@
 # bot.py
 import re
 import cfg
-from time import sleep
-import urllib
 import requests
 import socket
+from time import sleep
 
 # Put your channel name here
 CHANNEL = "hello_murdoc"
@@ -81,7 +80,7 @@ while True:
             response = requests.get('http://api.rtainc.co/twitch/channels/'+CHANNEL+'/uptime?format=%5B0%5D%27s+stream+has+been+up+for+%5B1%5D&units=2')
             respond(response.content)
         elif re.match("ViewCount", message, re.IGNORECASE):
-            # Returns the game being played
+            # Returns the channels current viewer count
             response = requests.get('http://api.rtainc.co/twitch/channels/'+CHANNEL+'/status?format=%5B0%5D+currently+has+%5B2%5D+viewers')
             respond(response.content)
         elif re.match("PickViewer", message, re.IGNORECASE):
