@@ -143,7 +143,7 @@ while True:
         # Chat Violations
         for pattern in cfg.VIOLATIONS:
             if re.match(pattern, message):
-                # ban(s, username)
-                print('match')
+                ban(s, username)
+                # timeout(s, username)  # Give user (10 min) timeout from chat
                 break
     sleep(1/cfg.RATE)
