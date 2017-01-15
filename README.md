@@ -1,4 +1,4 @@
-<img src="https://cloud.githubusercontent.com/assets/16360374/21960526/8b68c6ba-daa4-11e6-9f1f-c36faba4d4cb.png" height="80">
+<img src="https://cloud.githubusercontent.com/assets/16360374/21960526/8b68c6ba-daa4-11e6-9f1f-c36faba4d4cb.png" height="100">
 ------------------------------------------------------------------------------  
 #### A Twitch moderator and chat-bot with a few extra built-in features
 <p align="right">
@@ -10,11 +10,9 @@
     </a>
 </p>
 
-
 <p align="center">
 	<img src="https://cloud.githubusercontent.com/assets/16360374/21961865/0587b562-daca-11e6-8007-3a8447b7cb02.png" height="300">
 </p>
-<br>
 
 ## Description:
 This is a simple Twitch moderator/chat-bot written in Python, which features automated responses to a collection of commands that provide information, utility, and a little fun to your streams chat. By default, the integrated moderator will ban users who attempt to post external links, email addresses, phone numbers, IP addresses, and credit card number. Though, if you'd prefer to instead punish the offending user with a timeout from chat, you can do so quite easily by replacing the ```ban(s, username)``` in the *bot.py* file with ```timmeout(s, username, #timeout_time(s)#)```.
