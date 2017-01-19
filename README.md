@@ -38,6 +38,8 @@ Lastly, open the *bot.py* file and replace the value of the CHANNEL variable wit
 |-----------------|:----------------------------------------------:|
 | **Hey/Hello**   | When a greeting is posted in chat this bot will automatically greets the viewer by saying "Welcome to my stream, *\username\*"|
 
+------------------------------------------------------------------------------  
+<br>
 ### *Channel Stats*
 |   *command*   |  *response*                                    |  
 |---------------|:----------------------------------------------:|
@@ -49,7 +51,7 @@ Lastly, open the *bot.py* file and replace the value of the CHANNEL variable wit
 |   **Time**    | Returns both the amount of time the viewer has followed and subscribed to the channel |
 
 ------------------------------------------------------------------------------  
-
+<br>
 ### *Followers*
 |    *command*     |  *response*                                    |  
 |------------------|:----------------------------------------------:|
@@ -59,7 +61,7 @@ Lastly, open the *bot.py* file and replace the value of the CHANNEL variable wit
 | **PickFollower** | Returns a randomly selected follower           |
 
 ------------------------------------------------------------------------------  
-
+<br>
 ### *Subscribers*
 |  *command*   |  *response*                                      |  
 |--------------|:------------------------------------------------:|
@@ -69,7 +71,7 @@ Lastly, open the *bot.py* file and replace the value of the CHANNEL variable wit
 | **PickSub**  | Returns a randomly selected subscriber           |
 
 ------------------------------------------------------------------------------  
-
+<br>
 ### *Just for fun*
 |  *command*  |  *response*                                   |  
 |-------------|:---------------------------------------------:|
