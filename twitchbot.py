@@ -1,6 +1,7 @@
 # twitchbot.py
 
 import re
+import os
 import sys
 import config
 import socket
@@ -69,7 +70,11 @@ def timeout(sock, user, secs=600):
 
 def initLog():
     today = date.today()
-    return "log/log_" + str(today.month) + '-' + str(today.day) + '-' + str(today.year) + ".txt"
+    filename = "log/log_" + str(today.month) + '-' + str(today.day) + '-' + str(today.year) + ".txt"
+    dir = os.path.dirname(filename)
+    if not os.path.exists(dir):
+        os.makedirs(dir)
+    return filename
 
 def log(msg):
     logger=open(logFile,'a+')
